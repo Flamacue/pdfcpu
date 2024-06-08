@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/types"
+	"github.com/flamacue/pdfcpu/pkg/pdfcpu/types"
 )
 
 const (

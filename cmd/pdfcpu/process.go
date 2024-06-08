@@ -30,12 +30,12 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/pdfcpu/pdfcpu/pkg/api"
-	"github.com/pdfcpu/pdfcpu/pkg/cli"
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu"
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/model"
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/types"
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/validate"
+	"github.com/flamacue/pdfcpu/pkg/api"
+	"github.com/flamacue/pdfcpu/pkg/cli"
+	"github.com/flamacue/pdfcpu/pkg/pdfcpu"
+	"github.com/flamacue/pdfcpu/pkg/pdfcpu/model"
+	"github.com/flamacue/pdfcpu/pkg/pdfcpu/types"
+	"github.com/flamacue/pdfcpu/pkg/pdfcpu/validate"
 	"github.com/pkg/errors"
 )
 

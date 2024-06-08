@@ -21,11 +21,11 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/pdfcpu/pdfcpu/pkg/api"
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu"
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/color"
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/model"
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/types"
+	"github.com/flamacue/pdfcpu/pkg/api"
+	"github.com/flamacue/pdfcpu/pkg/pdfcpu"
+	"github.com/flamacue/pdfcpu/pkg/pdfcpu/color"
+	"github.com/flamacue/pdfcpu/pkg/pdfcpu/model"
+	"github.com/flamacue/pdfcpu/pkg/pdfcpu/types"
 )
 
 var textAnn model.AnnotationRenderer = model.NewTextAnnotation(

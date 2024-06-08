@@ -23,12 +23,12 @@ import (
 
 	"unicode/utf8"
 
-	"github.com/pdfcpu/pdfcpu/pkg/font"
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/color"
-	pdffont "github.com/pdfcpu/pdfcpu/pkg/pdfcpu/font"
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/format"
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/model"
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/types"
+	"github.com/flamacue/pdfcpu/pkg/font"
+	"github.com/flamacue/pdfcpu/pkg/pdfcpu/color"
+	pdffont "github.com/flamacue/pdfcpu/pkg/pdfcpu/font"
+	"github.com/flamacue/pdfcpu/pkg/pdfcpu/format"
+	"github.com/flamacue/pdfcpu/pkg/pdfcpu/model"
+	"github.com/flamacue/pdfcpu/pkg/pdfcpu/types"
 	"github.com/pkg/errors"
 )
 
@@ -967,6 +967,10 @@ func EnsureTextFieldAP(ctx *model.Context, d types.Dict, v string, multiLine boo
 	sd, _, err := ctx.DereferenceStreamDict(*irN)
 	if err != nil {
 		return err
+	}
+
+	if sd == nil {
+		return renderTextFieldAP(ctx, d, v, multiLine, fonts)
 	}
 
 	d1 := sd.DictEntry("Resources")

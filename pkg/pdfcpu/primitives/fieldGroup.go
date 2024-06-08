@@ -17,9 +17,9 @@
 package primitives
 
 import (
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/color"
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/model"
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/types"
+	"github.com/flamacue/pdfcpu/pkg/pdfcpu/color"
+	"github.com/flamacue/pdfcpu/pkg/pdfcpu/model"
+	"github.com/flamacue/pdfcpu/pkg/pdfcpu/types"
 )
 
 // FieldGroup is a container for fields.

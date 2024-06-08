@@ -30,7 +30,7 @@ import (
 	"strings"
 	"unicode/utf16"
 
-	"github.com/pdfcpu/pdfcpu/pkg/log"
+	"github.com/flamacue/pdfcpu/pkg/log"
 	"github.com/pkg/errors"
 )
 
